@@ -15,6 +15,7 @@
 		4ED82A571C34C2280017B4D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED82A551C34C2280017B4D9 /* LaunchScreen.xib */; };
 		4ED82A631C34C2280017B4D9 /* TL1559Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED82A621C34C2280017B4D9 /* TL1559Tests.m */; };
 		4ED82A6E1C34C2770017B4D9 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED82A6D1C34C2770017B4D9 /* OneViewController.m */; };
+		4ED82A711C34C34C0017B4D9 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED82A701C34C34C0017B4D9 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		4ED82A621C34C2280017B4D9 /* TL1559Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TL1559Tests.m; sourceTree = "<group>"; };
 		4ED82A6C1C34C2770017B4D9 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		4ED82A6D1C34C2770017B4D9 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		4ED82A6F1C34C34C0017B4D9 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		4ED82A701C34C34C0017B4D9 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		4ED82A3A1C34C2280017B4D9 = {
 			isa = PBXGroup;
 			children = (
+				4ED82A6F1C34C34C0017B4D9 /* TwoViewController.h */,
+				4ED82A701C34C34C0017B4D9 /* TwoViewController.m */,
 				4ED82A6C1C34C2770017B4D9 /* OneViewController.h */,
 				4ED82A6D1C34C2770017B4D9 /* OneViewController.m */,
 				4ED82A451C34C2280017B4D9 /* TL1559 */,
@@ -227,6 +232,7 @@
 				4ED82A4F1C34C2280017B4D9 /* ViewController.m in Sources */,
 				4ED82A4C1C34C2280017B4D9 /* AppDelegate.m in Sources */,
 				4ED82A491C34C2280017B4D9 /* main.m in Sources */,
+				4ED82A711C34C34C0017B4D9 /* TwoViewController.m in Sources */,
 				4ED82A6E1C34C2770017B4D9 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
